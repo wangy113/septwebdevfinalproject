@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -145,7 +148,7 @@
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(0,0,0) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -153,5 +156,32 @@
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
+    box-shadow: 0 0 20px rgb(0,0,0);
 }
+.box img {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    padding: 10px;
+}
+@media screen and (max-width: 800px){   
+    .headings {
+        font-size: 2.5rem;
+    }
+    #pic {
+        flex-direction: column;
+        align-items: center;
+    }
+    #pic imag {
+        width: 450px;
+        height: 250px;
+    }
+    #intro h2 {
+        text-align: center;
+        padding: 10px;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    } 
