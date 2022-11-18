@@ -9,4 +9,5 @@ Requirements:
 4) Run an accessibility check and make and document the  adjustments in your readme
 
 Accessibility Adjustments:
-1) 
+1) Every page should include a single H1 title: I removed the extra H1 titles.
+2) Objects and embedded text of images should be described for assistive technology: I added "alt text" to all images.
